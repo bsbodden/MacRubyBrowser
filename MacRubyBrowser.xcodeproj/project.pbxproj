@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F233070134A2DB9001DDA03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23306F134A2DB9001DDA03 /* Cocoa.framework */; };
+		1F233072134A2DB9001DDA03 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F233071134A2DB9001DDA03 /* MacRuby.framework */; };
+		1F233079134A2DB9001DDA03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F233077134A2DB9001DDA03 /* InfoPlist.strings */; };
+		1F23307C134A2DB9001DDA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23307B134A2DB9001DDA03 /* main.m */; };
+		1F233080134A2DBA001DDA03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F23307E134A2DBA001DDA03 /* MainMenu.xib */; };
+		1F233083134A2DBA001DDA03 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1F233082134A2DBA001DDA03 /* rb_main.rb */; };
+		1F233085134A2DBA001DDA03 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1F233084134A2DBA001DDA03 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F23306B134A2DB9001DDA03 /* MacRubyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F23306F134A2DB9001DDA03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1F233071134A2DB9001DDA03 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		1F233076134A2DB9001DDA03 /* MacRubyBrowser-Info.plist */ = {isa = PBXFileReference; path = "MacRubyBrowser-Info.plist"; sourceTree = "<group>"; };
+		1F233078134A2DB9001DDA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F23307A134A2DB9001DDA03 /* MacRubyBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "MacRubyBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		1F23307B134A2DB9001DDA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F23307F134A2DBA001DDA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F233082134A2DBA001DDA03 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		1F233084134A2DBA001DDA03 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F233068134A2DB9001DDA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F233070134A2DB9001DDA03 /* Cocoa.framework in Frameworks */,
+				1F233072134A2DB9001DDA03 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F233060134A2DB9001DDA03 = {
+			isa = PBXGroup;
+			children = (
+				1F233074134A2DB9001DDA03 /* MacRubyBrowser */,
+				1F23306E134A2DB9001DDA03 /* Frameworks */,
+				1F23306C134A2DB9001DDA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F23306C134A2DB9001DDA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F23306B134A2DB9001DDA03 /* MacRubyBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F23306E134A2DB9001DDA03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F23306F134A2DB9001DDA03 /* Cocoa.framework */,
+				1F233071134A2DB9001DDA03 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F233074134A2DB9001DDA03 /* MacRubyBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1F233084134A2DBA001DDA03 /* AppDelegate.rb */,
+				1F23307D134A2DBA001DDA03 /* Resources */,
+				1F233081134A2DBA001DDA03 /* Other Sources */,
+				1F233075134A2DB9001DDA03 /* Supporting Files */,
+			);
+			path = MacRubyBrowser;
+			sourceTree = "<group>";
+		};
+		1F233075134A2DB9001DDA03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F233076134A2DB9001DDA03 /* MacRubyBrowser-Info.plist */,
+				1F233077134A2DB9001DDA03 /* InfoPlist.strings */,
+				1F23307A134A2DB9001DDA03 /* MacRubyBrowser-Prefix.pch */,
+				1F23307B134A2DB9001DDA03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F23307D134A2DBA001DDA03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F23307E134A2DBA001DDA03 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F233081134A2DBA001DDA03 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F233082134A2DBA001DDA03 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1F233073134A2DB9001DDA03 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 1F23308B134A2DBA001DDA03 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1F23306A134A2DB9001DDA03 /* MacRubyBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F233088134A2DBA001DDA03 /* Build configuration list for PBXNativeTarget "MacRubyBrowser" */;
+			buildPhases = (
+				1F233067134A2DB9001DDA03 /* Sources */,
+				1F233068134A2DB9001DDA03 /* Frameworks */,
+				1F233069134A2DB9001DDA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacRubyBrowser;
+			productName = MacRubyBrowser;
+			productReference = 1F23306B134A2DB9001DDA03 /* MacRubyBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F233062134A2DB9001DDA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Integrallis Software";
+			};
+			buildConfigurationList = 1F233065134A2DB9001DDA03 /* Build configuration list for PBXProject "MacRubyBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F233060134A2DB9001DDA03;
+			productRefGroup = 1F23306C134A2DB9001DDA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F23306A134A2DB9001DDA03 /* MacRubyBrowser */,
+				1F233073134A2DB9001DDA03 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F233069134A2DB9001DDA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F233079134A2DB9001DDA03 /* InfoPlist.strings in Resources */,
+				1F233080134A2DBA001DDA03 /* MainMenu.xib in Resources */,
+				1F233083134A2DBA001DDA03 /* rb_main.rb in Resources */,
+				1F233085134A2DBA001DDA03 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F233067134A2DB9001DDA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23307C134A2DB9001DDA03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F233077134A2DB9001DDA03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F233078134A2DB9001DDA03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F23307E134A2DBA001DDA03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F23307F134A2DBA001DDA03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F233086134A2DBA001DDA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F233087134A2DBA001DDA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F233089134A2DBA001DDA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacRubyBrowser/MacRubyBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MacRubyBrowser/MacRubyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F23308A134A2DBA001DDA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacRubyBrowser/MacRubyBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MacRubyBrowser/MacRubyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F23308C134A2DBA001DDA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1F23308D134A2DBA001DDA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F233065134A2DB9001DDA03 /* Build configuration list for PBXProject "MacRubyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F233086134A2DBA001DDA03 /* Debug */,
+				1F233087134A2DBA001DDA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F233088134A2DBA001DDA03 /* Build configuration list for PBXNativeTarget "MacRubyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F233089134A2DBA001DDA03 /* Debug */,
+				1F23308A134A2DBA001DDA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F23308B134A2DBA001DDA03 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23308C134A2DBA001DDA03 /* Debug */,
+				1F23308D134A2DBA001DDA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F233062134A2DB9001DDA03 /* Project object */;
+}
