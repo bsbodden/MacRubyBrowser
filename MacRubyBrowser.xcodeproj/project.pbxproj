@@ -14,19 +14,21 @@
 		1F233080134A2DBA001DDA03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F23307E134A2DBA001DDA03 /* MainMenu.xib */; };
 		1F233083134A2DBA001DDA03 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1F233082134A2DBA001DDA03 /* rb_main.rb */; };
 		1F233085134A2DBA001DDA03 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1F233084134A2DBA001DDA03 /* AppDelegate.rb */; };
+		1F23308F134A3039001DDA03 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23308E134A3039001DDA03 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F23306B134A2DB9001DDA03 /* MacRubyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F23306F134A2DB9001DDA03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F233071134A2DB9001DDA03 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		1F233076134A2DB9001DDA03 /* MacRubyBrowser-Info.plist */ = {isa = PBXFileReference; path = "MacRubyBrowser-Info.plist"; sourceTree = "<group>"; };
+		1F233076134A2DB9001DDA03 /* MacRubyBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacRubyBrowser-Info.plist"; sourceTree = "<group>"; };
 		1F233078134A2DB9001DDA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F23307A134A2DB9001DDA03 /* MacRubyBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "MacRubyBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		1F23307A134A2DB9001DDA03 /* MacRubyBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacRubyBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		1F23307B134A2DB9001DDA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F23307F134A2DBA001DDA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1F233082134A2DBA001DDA03 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		1F233084134A2DBA001DDA03 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		1F23308E134A3039001DDA03 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F23308F134A3039001DDA03 /* WebKit.framework in Frameworks */,
 				1F233070134A2DB9001DDA03 /* Cocoa.framework in Frameworks */,
 				1F233072134A2DB9001DDA03 /* MacRuby.framework in Frameworks */,
 			);
@@ -45,6 +48,7 @@
 		1F233060134A2DB9001DDA03 = {
 			isa = PBXGroup;
 			children = (
+				1F23308E134A3039001DDA03 /* WebKit.framework */,
 				1F233074134A2DB9001DDA03 /* MacRubyBrowser */,
 				1F23306E134A2DB9001DDA03 /* Frameworks */,
 				1F23306C134A2DB9001DDA03 /* Products */,
